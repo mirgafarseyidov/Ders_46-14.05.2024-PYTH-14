@@ -18,9 +18,8 @@ netice:
 {'s', 'l', 'm', 'n', 'c'} >> heresinden bir dene olsa kifayetdir
 """
 
-from Packets.samitler import samitleri_al
 
-if __name__ == "__main__":
-    cumle = 'Salam necesen'
-    samitler = samitleri_al(cumle)
-    print(samitler)
+
+from Packets.samitler import finder
+
+finder("salam necesen")
